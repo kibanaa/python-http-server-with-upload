@@ -5,6 +5,7 @@ So this script will help, just run it and try to upload a file.
 
 ```bash
 Linux: curl --upload-file <filename> http://<ip>:8000/
+Windows: Invoke-RestMethod -Uri http://<ip>:8000/<Name_of_file_to_be_saved> -Method Put -InFile .\<filename>
 ```
 
 ```python
